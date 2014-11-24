@@ -7,6 +7,7 @@
 .image-text-group {
     overflow:hidden;
     zoom:1;
+    margin-bottom: 2em;
 }
 
 .exhibit-item {
@@ -24,7 +25,8 @@
 
 .exhibit-text {
     float:center;
-    padding: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
     width: 92%;
 }
 
