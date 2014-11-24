@@ -277,3 +277,9 @@
 button#page_metadata_form {
     float: none;
 }
+
+/* fcd1, 10/4/13: redefined the following from 10% to auto to increase the size
+of the image for an added item in the Edit Page Content page */
+body.exhibits .item-select-outer .item-select-inner .item-file {
+    width: auto;
+}
