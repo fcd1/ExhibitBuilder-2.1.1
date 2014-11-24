@@ -1,7 +1,7 @@
-/* CSS for the image-list-center-text-bottom layout */
+/* CSS for the image-list-center-text-top layout */
 
-.image-list-center-text-bottom {
-    margin-top: 2em;
+.image-list-center-text-top {
+    margin-top: 1em;
 }
 
 .image-text-group {
@@ -12,13 +12,13 @@
 .exhibit-item {
     float:center; 
     width: 90%;
-    margin-bottom: 2%;
     text-align: center;	
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
 }
 
 .exhibit-item img {
-    margin: auto;
     max-width: 90%;
 }
 
@@ -31,4 +31,3 @@
 .exhibit-item-caption p {
     text-align: center;
 }
-    
