@@ -45,6 +45,14 @@
             </div>
         </div>
         <div class="field">
+   
+            <?php 
+              // fcd1, 12/12/14: Add following so new exhibits default to CUL General theme.
+              if (!$theme):
+              $theme = Theme::getTheme('cul-general');
+              $exhibit->theme = $theme;
+              endif; 
+            ?>
             <div class="two columns alpha">
                 <?php echo $this->formLabel('theme', __('Theme')); ?>
             </div>
